@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/game.css">
+
+    <title>PWS A6 HW</title>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>10 квадратов</h1>
+
+        <!-- FIXME: сейчас тут не все слоты, надо добавить нужных -->
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-01"></div>
+            <div class="col game-field align-text-bottom" id="slot-02"></div>
+            <div class="col game-field align-text-bottom" id="slot-03"></div>
+            <div class="col game-field align-text-bottom" id="slot-04"></div>
+            <div class="col game-field align-text-bottom" id="slot-05"></div>
+            <div class="col game-field align-text-bottom" id="slot-06"></div>
+        </div>
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-07"></div>
+            <div class="col game-field align-text-bottom" id="slot-08"></div>
+            <div class="col game-field align-text-bottom" id="slot-09"></div>
+            <div class="col game-field align-text-bottom" id="slot-10"></div>
+            <div class="col game-field align-text-bottom" id="slot-11"></div>
+            <div class="col game-field align-text-bottom" id="slot-12"></div>
+        </div>
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-13"></div>
+            <div class="col game-field align-text-bottom" id="slot-14"></div>
+            <div class="col game-field align-text-bottom" id="slot-15"></div>
+            <div class="col game-field align-text-bottom" id="slot-16"></div>
+            <div class="col game-field align-text-bottom" id="slot-17"></div>
+            <div class="col game-field align-text-bottom" id="slot-18"></div>
+        </div>
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-19"></div>
+            <div class="col game-field align-text-bottom" id="slot-20"></div>
+            <div class="col game-field align-text-bottom" id="slot-21"></div>
+            <div class="col game-field align-text-bottom" id="slot-22"></div>
+            <div class="col game-field align-text-bottom" id="slot-23"></div>
+            <div class="col game-field align-text-bottom" id="slot-24"></div>
+        </div>
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-25"></div>
+            <div class="col game-field align-text-bottom" id="slot-26"></div>
+            <div class="col game-field align-text-bottom" id="slot-27"></div>
+            <div class="col game-field align-text-bottom" id="slot-28"></div>
+            <div class="col game-field align-text-bottom" id="slot-29"></div>
+            <div class="col game-field align-text-bottom" id="slot-30"></div>
+        </div>
+        <div class="row">
+            <div class="col game-field align-text-bottom" id="slot-31"></div>
+            <div class="col game-field align-text-bottom" id="slot-32"></div>
+            <div class="col game-field align-text-bottom" id="slot-33"></div>
+            <div class="col game-field align-text-bottom" id="slot-34"></div>
+            <div class="col game-field align-text-bottom" id="slot-35"></div>
+            <div class="col game-field align-text-bottom" id="slot-36"></div>
+        </div>
+        <div id="win-message" class="d-none">
+            <!-- TODO: можно добавить красные квадратики с отрицательным весом и делать счёт попаданий в конце как разницу очков за попадание минус штрафные -->
+            <h2>Вы нашли 10 зелёных квадратов за <span id="total-time-played"></span> секунд</h2>
+            <h2 class="miss"></h2>
+        </div>
+        <div class="row">
+            <button id="button-reload" class="btn btn-primary">Играть заново</button>
+        </div>
+    </div>
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/game.js"></script>
+</body></html>
